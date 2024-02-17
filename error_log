@@ -1,0 +1,265 @@
+[01-Feb-2023 17:51:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/logisae/public_html/application/controllers/jobs.php on line 2
+[11-Feb-2023 12:05:00 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[04-Mar-2023 17:13:22 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/logisae/public_html/application/controllers/jobs.php on line 2
+[24-Mar-2023 14:47:04 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[28-Mar-2023 19:53:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/logisae/public_html/application/controllers/jobs.php on line 2
+[31-Mar-2023 17:38:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[05-Apr-2023 15:29:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[11-Apr-2023 09:06:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/logisae/public_html/application/controllers/jobs.php on line 2
+[12-Apr-2023 10:12:21 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[14-Apr-2023 09:29:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[15-Apr-2023 11:51:10 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[17-Apr-2023 17:08:30 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[18-Apr-2023 19:28:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/logisae/public_html/application/controllers/jobs.php on line 2
+[19-Apr-2023 02:15:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[21-Apr-2023 10:27:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[27-Apr-2023 22:02:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Tickets has a deprecated constructor in /home1/logisae/public_html/application/controllers/tickets.php on line 2
+[01-May-2023 18:46:30 UTC] PHP Deprecated:  Optional parameter $level declared before required parameter $message is implicitly treated as a required parameter in /home1/acountz/public_html/system/core/Common.php on line 348
+[01-May-2023 18:46:30 UTC] PHP Deprecated:  Optional parameter $type declared before required parameter $list is implicitly treated as a required parameter in /home1/acountz/public_html/system/helpers/html_helper.php on line 107
+[01-May-2023 18:46:30 UTC] PHP Fatal error:  Uncaught TypeError: filter_var(): Argument #3 ($options) must be of type array|int, string given in /home1/acountz/public_html/system/core/Input.php:392
+Stack trace:
+#0 /home1/acountz/public_html/system/core/Input.php(392): filter_var('117.198.160.48', 275, '')
+#1 /home1/acountz/public_html/system/core/Input.php(355): CI_Input->valid_ip('117.198.160.48')
+#2 /home1/acountz/public_html/system/libraries/Session.php(331): CI_Input->ip_address()
+#3 /home1/acountz/public_html/system/libraries/Session.php(109): CI_Session->sess_create()
+#4 /home1/acountz/public_html/system/core/Loader.php(1100): CI_Session->__construct()
+#5 /home1/acountz/public_html/system/core/Loader.php(976): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home1/acountz/public_html/system/core/Loader.php(217): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home1/acountz/public_html/system/core/Loader.php(1179): CI_Loader->library('session')
+#8 /home1/acountz/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#9 /home1/acountz/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#10 /home1/acountz/public_html/application/controllers/homepage.php(5): CI_Controller->__construct()
+#11 /home1/acountz/public_html/system/core/CodeIgniter.php(309): Homepage->__construct()
+#12 /home1/acountz/public_html/index.php(202): require_once('/home1/acountz/...')
+#13 {main}
+  thrown in /home1/acountz/public_html/system/core/Input.php on line 392
+[01-May-2023 18:46:37 UTC] PHP Fatal error:  Uncaught TypeError: filter_var(): Argument #3 ($options) must be of type array|int, string given in /home1/acountz/public_html/system/core/Input.php:392
+Stack trace:
+#0 /home1/acountz/public_html/system/core/Input.php(392): filter_var('117.198.160.48', 275, '')
+#1 /home1/acountz/public_html/system/core/Input.php(355): CI_Input->valid_ip('117.198.160.48')
+#2 /home1/acountz/public_html/system/libraries/Session.php(331): CI_Input->ip_address()
+#3 /home1/acountz/public_html/system/libraries/Session.php(109): CI_Session->sess_create()
+#4 /home1/acountz/public_html/system/core/Loader.php(1100): CI_Session->__construct()
+#5 /home1/acountz/public_html/system/core/Loader.php(976): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home1/acountz/public_html/system/core/Loader.php(217): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home1/acountz/public_html/system/core/Loader.php(1179): CI_Loader->library('session')
+#8 /home1/acountz/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#9 /home1/acountz/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#10 /home1/acountz/public_html/application/controllers/homepage.php(5): CI_Controller->__construct()
+#11 /home1/acountz/public_html/system/core/CodeIgniter.php(309): Homepage->__construct()
+#12 /home1/acountz/public_html/index.php(202): require_once('/home1/acountz/...')
+#13 {main}
+  thrown in /home1/acountz/public_html/system/core/Input.php on line 392
+[30-Jun-2023 08:33:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function folder() on null in /home1/acountz/public_html/application/controllers/select_applicant.php:121
+Stack trace:
+#0 /home1/acountz/public_html/system/core/CodeIgniter.php(360): Select_applicant->download_profile()
+#1 /home1/acountz/public_html/index.php(202): require_once('/home1/acountz/...')
+#2 {main}
+  thrown in /home1/acountz/public_html/application/controllers/select_applicant.php on line 121
+[30-Jun-2023 08:35:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[30-Jun-2023 08:35:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[30-Jun-2023 08:35:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[30-Jun-2023 08:35:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[30-Jun-2023 08:35:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[30-Jun-2023 08:35:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[30-Jun-2023 08:35:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[30-Jun-2023 08:35:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[30-Jun-2023 08:40:47 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[30-Jun-2023 08:40:47 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[30-Jun-2023 08:40:47 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[30-Jun-2023 08:40:47 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[30-Jun-2023 08:40:47 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[30-Jun-2023 08:40:47 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[30-Jun-2023 08:40:47 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[30-Jun-2023 08:40:47 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[30-Jun-2023 10:47:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[30-Jun-2023 10:47:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[30-Jun-2023 10:47:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[30-Jun-2023 10:47:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[30-Jun-2023 10:47:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[30-Jun-2023 10:47:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[30-Jun-2023 10:47:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[30-Jun-2023 10:47:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[02-Jul-2023 07:38:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[02-Jul-2023 07:38:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[02-Jul-2023 07:38:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[02-Jul-2023 07:38:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[02-Jul-2023 07:38:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[02-Jul-2023 07:38:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[02-Jul-2023 07:38:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[02-Jul-2023 07:38:51 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[05-Jul-2023 15:06:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:45 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:06:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:07:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:49 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:35:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:24 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 15:36:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 16:37:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 16:37:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 16:37:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 16:38:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 16:38:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 16:38:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[05-Jul-2023 16:38:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/acountz/public_html/application/config/config.php on line 3
+[29-Jul-2023 05:56:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[29-Jul-2023 05:56:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[29-Jul-2023 05:56:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[29-Jul-2023 05:56:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[29-Jul-2023 05:56:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[29-Jul-2023 05:56:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[29-Jul-2023 05:56:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[29-Jul-2023 05:56:43 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[30-Jul-2023 03:49:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/acountz/public_html/application/views/candidate-profile/dashboard.php on line 221
+[30-Jul-2023 03:49:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/acountz/public_html/application/views/candidate-profile/dashboard.php on line 221
+[30-Jul-2023 04:25:41 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[30-Jul-2023 04:25:41 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[30-Jul-2023 04:25:41 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[30-Jul-2023 04:25:41 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[30-Jul-2023 04:25:41 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[30-Jul-2023 04:25:41 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[30-Jul-2023 04:25:41 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[30-Jul-2023 04:25:42 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[02-Aug-2023 15:38:41 UTC] PHP Deprecated:  Optional parameter $level declared before required parameter $message is implicitly treated as a required parameter in /home1/acountz/public_html/system/core/Common.php on line 348
+[02-Aug-2023 15:38:41 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home1/acountz/public_html/application/config/config.php on line 3
+[02-Aug-2023 15:38:41 UTC] PHP Deprecated:  Optional parameter $type declared before required parameter $list is implicitly treated as a required parameter in /home1/acountz/public_html/system/helpers/html_helper.php on line 107
+[02-Aug-2023 15:38:41 UTC] PHP Fatal error:  Uncaught TypeError: filter_var(): Argument #3 ($options) must be of type array|int, string given in /home1/acountz/public_html/system/core/Input.php:392
+Stack trace:
+#0 /home1/acountz/public_html/system/core/Input.php(392): filter_var('162.215.254.201', 275, '')
+#1 /home1/acountz/public_html/system/core/Input.php(355): CI_Input->valid_ip('162.215.254.201')
+#2 /home1/acountz/public_html/system/libraries/Session.php(331): CI_Input->ip_address()
+#3 /home1/acountz/public_html/system/libraries/Session.php(109): CI_Session->sess_create()
+#4 /home1/acountz/public_html/system/core/Loader.php(1100): CI_Session->__construct()
+#5 /home1/acountz/public_html/system/core/Loader.php(976): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home1/acountz/public_html/system/core/Loader.php(217): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home1/acountz/public_html/system/core/Loader.php(1179): CI_Loader->library('session')
+#8 /home1/acountz/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#9 /home1/acountz/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#10 /home1/acountz/public_html/application/controllers/homepage.php(5): CI_Controller->__construct()
+#11 /home1/acountz/public_html/system/core/CodeIgniter.php(309): Homepage->__construct()
+#12 /home1/acountz/public_html/index.php(202): require_once('/home1/acountz/...')
+#13 {main}
+  thrown in /home1/acountz/public_html/system/core/Input.php on line 392
+[02-Aug-2023 15:38:42 UTC] PHP Deprecated:  Optional parameter $level declared before required parameter $message is implicitly treated as a required parameter in /home1/acountz/public_html/system/core/Common.php on line 348
+[02-Aug-2023 15:38:42 UTC] PHP Deprecated:  Optional parameter $type declared before required parameter $list is implicitly treated as a required parameter in /home1/acountz/public_html/system/helpers/html_helper.php on line 107
+[02-Aug-2023 15:38:42 UTC] PHP Fatal error:  Uncaught TypeError: filter_var(): Argument #3 ($options) must be of type array|int, string given in /home1/acountz/public_html/system/core/Input.php:392
+Stack trace:
+#0 /home1/acountz/public_html/system/core/Input.php(392): filter_var('162.215.254.201', 275, '')
+#1 /home1/acountz/public_html/system/core/Input.php(355): CI_Input->valid_ip('162.215.254.201')
+#2 /home1/acountz/public_html/system/libraries/Session.php(331): CI_Input->ip_address()
+#3 /home1/acountz/public_html/system/libraries/Session.php(109): CI_Session->sess_create()
+#4 /home1/acountz/public_html/system/core/Loader.php(1100): CI_Session->__construct()
+#5 /home1/acountz/public_html/system/core/Loader.php(976): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home1/acountz/public_html/system/core/Loader.php(217): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home1/acountz/public_html/system/core/Loader.php(1179): CI_Loader->library('session')
+#8 /home1/acountz/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#9 /home1/acountz/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#10 /home1/acountz/public_html/application/controllers/homepage.php(5): CI_Controller->__construct()
+#11 /home1/acountz/public_html/system/core/CodeIgniter.php(309): Homepage->__construct()
+#12 /home1/acountz/public_html/index.php(202): require_once('/home1/acountz/...')
+#13 {main}
+  thrown in /home1/acountz/public_html/system/core/Input.php on line 392
+[02-Aug-2023 15:38:43 UTC] PHP Deprecated:  Required parameter $message follows optional parameter $level in /home1/acountz/public_html/system/core/Common.php on line 348
+[02-Aug-2023 15:38:43 UTC] PHP Deprecated:  Required parameter $list follows optional parameter $type in /home1/acountz/public_html/system/helpers/html_helper.php on line 107
+[02-Aug-2023 15:38:43 UTC] PHP Fatal error:  Uncaught TypeError: filter_var(): Argument #3 ($options) must be of type array|int, string given in /home1/acountz/public_html/system/core/Input.php:392
+Stack trace:
+#0 /home1/acountz/public_html/system/core/Input.php(392): filter_var('162.215.254.201', 275, '')
+#1 /home1/acountz/public_html/system/core/Input.php(355): CI_Input->valid_ip('162.215.254.201')
+#2 /home1/acountz/public_html/system/libraries/Session.php(331): CI_Input->ip_address()
+#3 /home1/acountz/public_html/system/libraries/Session.php(109): CI_Session->sess_create()
+#4 /home1/acountz/public_html/system/core/Loader.php(1100): CI_Session->__construct()
+#5 /home1/acountz/public_html/system/core/Loader.php(976): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home1/acountz/public_html/system/core/Loader.php(217): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home1/acountz/public_html/system/core/Loader.php(1179): CI_Loader->library('session')
+#8 /home1/acountz/public_html/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#9 /home1/acountz/public_html/system/core/Controller.php(52): CI_Loader->initialize()
+#10 /home1/acountz/public_html/application/controllers/homepage.php(5): CI_Controller->__construct()
+#11 /home1/acountz/public_html/system/core/CodeIgniter.php(309): Homepage->__construct()
+#12 /home1/acountz/public_html/index.php(202): require_once('/home1/acountz/...')
+#13 {main}
+  thrown in /home1/acountz/public_html/system/core/Input.php on line 392
+[26-Nov-2023 07:09:52 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[26-Nov-2023 07:09:52 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[26-Nov-2023 07:09:52 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[26-Nov-2023 07:09:52 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[26-Nov-2023 07:09:52 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[26-Nov-2023 07:09:52 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[26-Nov-2023 07:09:52 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[26-Nov-2023 07:09:52 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[19-Jan-2024 05:02:40 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/acountz/public_html/application/controllers/jobs.php on line 2
+[19-Jan-2024 05:02:47 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Register has a deprecated constructor in /home1/acountz/public_html/application/controllers/register.php on line 2
+[28-Jan-2024 07:49:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/acountz/public_html/application/controllers/jobs.php on line 2
+[28-Jan-2024 07:49:15 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Register has a deprecated constructor in /home1/acountz/public_html/application/controllers/register.php on line 2
+[09-Feb-2024 07:31:21 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[09-Feb-2024 07:31:21 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[09-Feb-2024 07:31:21 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[09-Feb-2024 07:31:21 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[09-Feb-2024 07:31:21 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[09-Feb-2024 07:31:21 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[09-Feb-2024 07:31:21 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[09-Feb-2024 07:31:21 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[12-Feb-2024 08:23:19 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/acountz/public_html/application/controllers/jobs.php on line 2
+[12-Feb-2024 08:23:37 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Register has a deprecated constructor in /home1/acountz/public_html/application/controllers/register.php on line 2
+[13-Feb-2024 16:09:01 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 610
+[13-Feb-2024 16:09:01 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Dompdf.php on line 631
+[13-Feb-2024 16:09:01 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 467
+[13-Feb-2024 16:09:01 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 474
+[13-Feb-2024 16:09:01 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 481
+[13-Feb-2024 16:09:01 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/lib/Cpdf.php on line 488
+[13-Feb-2024 16:09:01 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Css/Stylesheet.php on line 1360
+[13-Feb-2024 16:09:03 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home1/acountz/public_html/application/libraries/dompdf/src/Renderer/Text.php on line 140
+[16-Feb-2024 03:25:42 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Jobs has a deprecated constructor in /home1/acountz/public_html/application/controllers/jobs.php on line 2
+[16-Feb-2024 03:25:51 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Register has a deprecated constructor in /home1/acountz/public_html/application/controllers/register.php on line 2

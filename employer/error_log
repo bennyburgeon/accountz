@@ -1,0 +1,6 @@
+[05-May-2023 10:15:19 UTC] PHP Fatal error:  Uncaught Error: Object of class CI_DB_mysqli_result could not be converted to string in /home1/acountz/public_html/employer/application/controllers/login.php:31
+Stack trace:
+#0 /home1/acountz/public_html/employer/system/core/CodeIgniter.php(360): Login->index()
+#1 /home1/acountz/public_html/employer/index.php(202): require_once('/home1/acountz/...')
+#2 {main}
+  thrown in /home1/acountz/public_html/employer/application/controllers/login.php on line 31
